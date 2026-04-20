@@ -11,6 +11,6 @@ int main(){
     for(int i=0;i<5;++i){
         cout << ptr[i]<<" ";
     }
-    
+    delete []ptr;
     return 0;
 }
